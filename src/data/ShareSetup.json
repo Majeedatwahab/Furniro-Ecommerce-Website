@@ -1,0 +1,58 @@
+{
+  "ShareSetup": [
+    {
+      "id": "1",
+      "image": "assets/long-shelf.png",
+      "width": "274px",
+      "height": "382px"
+    },
+    {
+      "id": "2",
+      "image": "assets/work-desk.png",
+      "width": "451px",
+      "height": "312px"
+    },
+    {
+      "id": "3",
+      "image": "assets/brown-chair.png",
+      "width": "381px",
+      "height": "323px"
+    },
+    {
+      "id": "4",
+      "image": "assets/vase-camera.png",
+      "width": "344px",
+      "height": "242px"
+    },
+    {
+      "id": "5",
+      "image": "assets/dining-set.png",
+      "width": "295px",
+      "height": "392px"
+    },
+    {
+      "id": "6",
+      "image": "assets/bed-set.png",
+      "width": "290px",
+      "height": "348px"
+    },
+    {
+      "id": "7",
+      "image": "assets/kitchen-table.png",
+      "width": "425px",
+      "height": "433px"
+    },
+    {
+      "id": "8",
+      "image": "assets/wall-art.png",
+      "width": "178px",
+      "height": "242px"
+    },
+    {
+      "id": "9",
+      "image": "assets/kitchen.png",
+      "width": "258px",
+      "height": "196px"
+    }
+  ]
+}

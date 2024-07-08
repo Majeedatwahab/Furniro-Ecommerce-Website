@@ -1,0 +1,245 @@
+{
+  "AllProducts": [
+    {
+      "id": 1,
+      "name": "Syltherine",
+      "price": 30,
+      "oldPrice": 100,
+      "discount": 30,
+      "description": "Stylish Cafe Chair",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.4,
+      "reviews": 135,
+      "image": "/assets/syltherine.png",
+      "sku": "SS001",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 2,
+      "name": "Leviosa",
+      "price": 100,
+      "description": "Stylish Cafe Chair",
+      "image": "/assets/leviosa.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.3,
+      "reviews": 100,
+      "sku": "SS002",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 3,
+      "name": "Lolito",
+      "price": 500,
+      "oldPrice": 1000,
+      "discount": 50,
+      "description": "Luxury Big Sofa",
+      "image": "/assets/lolito.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.5,
+      "reviews": 90,
+      "sku": "SS003",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 4,
+      "name": "Respira",
+      "price": 500,
+      "tag": "New",
+      "description": "Couch and Center Table",
+      "image": "/assets/respira.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.7,
+      "reviews": 100,
+      "sku": "SS004",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 5,
+      "name": "Grifo",
+      "price": 150,
+      "description": "Night Lamp",
+      "image": "/assets/grifo.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.7,
+      "reviews": 100,
+      "sku": "SS005",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 6,
+      "name": "Muggo",
+      "price": 250,
+      "tag": "New",
+      "description": "Couch",
+      "image": "/assets/muggo.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.1,
+      "reviews": 110,
+      "sku": "SS006",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 7,
+      "name": "Asgaard sofa",
+      "price": 210,
+      "oldPrice": 700,
+      "discount": 30,
+      "description": "Asgaard Sofa Set",
+      "image": "/assets/Asgaard sofa 3.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.8,
+      "reviews": 120,
+      "sku": "SS007",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 8,
+      "name": "Potty",
+      "price": 200,
+      "tag": "New",
+      "description": "Minimalist Brown Couch",
+      "image": "/assets/potty.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.2,
+      "reviews": 120,
+      "sku": "SS008",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 9,
+      "name": "Pingky",
+      "price": 300,
+      "oldPrice": 1000,
+      "discount": 30,
+      "description": "Cute Couch Set",
+      "image": "/assets/pingky.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.5,
+      "reviews": 130,
+      "sku": "SS009",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 10,
+      "name": "Outdoor sofa",
+      "price": 250,
+      "tag": "New",
+      "description": "Outdoor Sofa Set",
+      "image": "/assets/Outdoor sofa set 1.png",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.1,
+      "reviews": 90,
+      "sku": "SS010",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 11,
+      "name": "Modern sofa",
+      "price": 200,
+      "tag": "New",
+      "description": "Modern Sofa for living room",
+      "image": "/assets/modern-sofa.jpeg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.1,
+      "reviews": 90,
+      "sku": "SS011",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 12,
+      "name": "Everly Quinn",
+      "price": 300,
+      "tag": "New",
+      "description": "Soft Sofa",
+      "image": "/assets/Everly-Quinn.jpeg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.1,
+      "reviews": 90,
+      "sku": "SS012",
+      "category": "Sofas",
+      "tags": "Sofa, Chair, Home, Shop"
+    },
+
+    {
+      "id": 13,
+      "name": "Sloomy Alabama ",
+      "price": 500,
+      "tag": "New",
+      "description": "Pink Plush Memory Foam Bed",
+      "image": "/assets/sloomy-alabama.jpeg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.5,
+      "reviews": 100,
+      "sku": "SS013",
+      "category": "Bedframes",
+      "tags": "Sofa, Chair, Home, Shop, Bedframes, Mattress"
+    },
+
+    {
+      "id": 14,
+      "name": "Zafly",
+      "price": 550,
+      "tag": "New",
+      "description": "King Bedframe with LED Headboard",
+      "image": "/assets/zafly.jpeg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.8,
+      "reviews": 190,
+      "sku": "SS014",
+      "category": "Bedframes",
+      "tags": "Sofa, Chair, Home, Shop, Bedframes, Mattress"
+    },
+
+    {
+      "id": 15,
+      "name": "Catherine",
+      "price": 450,
+      "tag": "New",
+      "description": "The Catherine Bed",
+      "image": "/assets/catherine.jpeg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.3,
+      "reviews": 80,
+      "sku": "SS015",
+      "category": "Bedframes",
+      "tags": "Sofa, Chair, Home, Shop, Bedframes, Mattress"
+    },
+
+    {
+      "id": 16,
+      "name": "Kadeen",
+      "price": 400,
+      "tag": "New",
+      "description": "Wought Studio Lit Kadeen",
+      "image": "/assets/kadeen.jpeg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam quidem nobis tempora quia, rem ad labore, ratione iusto sapiente repellendus unde incidunt voluptas. Alias nulla odit quos odio soluta?",
+      "stars": 4.0,
+      "reviews": 100,
+      "sku": "SS016",
+      "category": "Bedframes",
+      "tags": "Sofa, Chair, Home, Shop, Bedframes, Mattress"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "BrowseRange": [
+    {
+      "id": 1,
+      "name": "Dining",
+      "image": "assets/dining.png",
+      "alt": "Dining"
+    },
+
+    {
+      "id": 2,
+      "name": "Living",
+      "image": "assets/living-room.png",
+      "alt": "Living room"
+    },
+
+    {
+      "id": 3,
+      "name": "Bedroom",
+      "image": "assets/bedroom.png",
+      "alt": "Bedroom"
+    }
+  ]
+}

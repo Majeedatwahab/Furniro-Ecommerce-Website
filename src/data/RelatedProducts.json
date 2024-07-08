@@ -1,0 +1,40 @@
+{
+  "RelatedProducts": [
+    {
+      "id": 1,
+      "name": "Syltherine",
+      "price": 70,
+      "oldPrice": 100,
+      "discount": 30,
+      "description": "Stylish Cafe Chair",
+      "image": "/assets/syltherine.png"
+    },
+
+    {
+      "id": 2,
+      "name": "Leviosa",
+      "price": 100,
+      "description": "Stylish Cafe Chair",
+      "image": "/assets/leviosa.png"
+    },
+
+    {
+      "id": 3,
+      "name": "Lolito",
+      "price": 500,
+      "oldPrice": 1000,
+      "discount": 50,
+      "description": "Luxury Big Sofa",
+      "image": "/assets/lolito.png"
+    },
+
+    {
+      "id": 4,
+      "name": "Respira",
+      "price": 500,
+      "tag": "New",
+      "description": "Couch and Center Table",
+      "image": "/assets/respira.png"
+    }
+  ]
+}

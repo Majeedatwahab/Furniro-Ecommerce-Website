@@ -1,0 +1,76 @@
+{
+  "OurProducts": [
+    {
+      "id": 1,
+      "name": "Syltherine",
+      "price": 70,
+      "oldPrice": 100,
+      "discount": 30,
+      "description": "Stylish Cafe Chair",
+      "image": "/assets/syltherine.png"
+    },
+
+    {
+      "id": 2,
+      "name": "Leviosa",
+      "price": 100,
+      "description": "Stylish Cafe Chair",
+      "image": "/assets/leviosa.png"
+    },
+
+    {
+      "id": 3,
+      "name": "Lolito",
+      "price": 500,
+      "oldPrice": 1000,
+      "discount": 50,
+      "description": "Luxury Big Sofa",
+      "image": "/assets/lolito.png"
+    },
+
+    {
+      "id": 4,
+      "name": "Respira",
+      "price": 500,
+      "tag": "New",
+      "description": "Couch and Center Table",
+      "image": "/assets/respira.png"
+    },
+
+    {
+      "id": 5,
+      "name": "Grifo",
+      "price": 150,
+      "description": "Night Lamp",
+      "image": "/assets/grifo.png"
+    },
+
+    {
+      "id": 6,
+      "name": "Muggo",
+      "price": 250,
+      "tag": "New",
+      "description": "Couch",
+      "image": "assets/muggo.png"
+    },
+
+    {
+      "id": 7,
+      "name": "Pingky",
+      "price": 300,
+      "oldPrice": 1000,
+      "discount": 30,
+      "description": "Cute Couch Set",
+      "image": "/assets/pingky.png"
+    },
+
+    {
+      "id": 8,
+      "name": "Potty",
+      "price": 200,
+      "tag": "New",
+      "description": "Minimalist Brown Couch",
+      "image": "/assets/potty.png"
+    }
+  ]
+}

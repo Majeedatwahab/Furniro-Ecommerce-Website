@@ -1,0 +1,31 @@
+{
+  "OurServices": [
+    {
+      "id": "1",
+      "image": "assets/trophy 1.png",
+      "name": "High Quality",
+      "description": "Crafted from top materials"
+    },
+
+    {
+      "id": "2",
+      "image": "assets/guarantee.png",
+      "name": "Warranty Protection",
+      "description": "Over 2 Years"
+    },
+
+    {
+      "id": "3",
+      "image": "assets/shipping.png",
+      "name": "Free Shipping",
+      "description": "Orders above $150"
+    },
+
+    {
+      "id": "4",
+      "image": "assets/customer-support.png",
+      "name": "24/7 Support",
+      "description": "Dedicated Support"
+    }
+  ]
+}

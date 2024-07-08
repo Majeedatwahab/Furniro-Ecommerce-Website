@@ -1,0 +1,41 @@
+{
+  "RoomInspo": [
+    {
+      "id": "1",
+      "name": "01 -- Bedroom",
+      "description": "Inner Peace",
+      "image": "assets/inner-peace.png"
+    },
+    {
+      "id": "2",
+      "name": "02 -- Cute Room",
+      "description": "",
+      "image": "assets/inner-peace2.png"
+    },
+
+    {
+      "id": "3",
+      "name": "03 -- White Bed Frame",
+      "image": "assets/White-Bed-Frame.jpeg",
+      "description": "An Elevated Marshmellow White Bed Frame"
+    },
+    {
+      "id": "4",
+      "name": "04 -- Cool Coloured Room",
+      "description": "A room with the combination of the bests cool colors.",
+      "image": "assets/Best-cool-colours.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "05 -- Pink Room",
+      "description": "A pink colored Bedroom.",
+      "image": "assets/pink-room.jpeg"
+    },
+    {
+      "id": "6",
+      "name": "06 -- A Luxury Bedroom",
+      "description": "An Aesthetic Bedroom Design.",
+      "image": "assets/Aesthetic-bedroom.jpeg"
+    }
+  ]
+}
