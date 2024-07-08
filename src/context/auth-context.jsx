@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { createClient } from "@supabase/supabase-js";
+import { createClient } from '@supabase/supabase-js'
 import { useNavigate } from "react-router-dom";
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_PROJECT_URL;
