@@ -1,9 +1,13 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from "@supabase/supabase-js";
 import { useNavigate } from "react-router-dom";
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_PROJECT_URL;
 const supabaseKey = import.meta.env.VITE_SUPABASE_API_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+  throw new Error("Supabase URL and API key are required");
+}
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
@@ -19,18 +23,19 @@ export function AuthContextProvider({ children }) {
   const [firstName, setFirstName] = useState("");
   const [justLoggedIn, setJustLoggedIn] = useState(false);
 
-  // Fetch the session on initial load
   useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    const fetchSession = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
       setSession(session);
-    });
+    };
+
+    fetchSession();
   }, []);
 
-  // SIGNUP FUNCTION
   const handleSignup = async (event) => {
     event.preventDefault();
     setLoading(true);
-    setError("");
+    setError(null);
 
     const { data, error } = await supabase.auth.signUp({
       email,
@@ -47,16 +52,14 @@ export function AuthContextProvider({ children }) {
     } else {
       setSession(data.session);
       setJustLoggedIn(true);
-      console.log("User signed up:", firstName);
-      navigate("/account"); // Redirect to account page after signup
+      navigate("/account");
     }
     setLoading(false);
   };
 
-  // SIGNIN WITH GOOGLE FUNCTION
   const handleGoogleSignin = async () => {
     setLoading(true);
-    setError("");
+    setError(null);
 
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: "google",
@@ -67,17 +70,15 @@ export function AuthContextProvider({ children }) {
     } else {
       setSession(data.session);
       setJustLoggedIn(true);
-      console.log("User signed in with Google");
-      navigate("/account"); // Redirect to account page after Google signin
+      navigate("/account");
     }
     setLoading(false);
   };
 
-  // LOGIN FUNCTION
   const handleLogin = async (event) => {
     event.preventDefault();
     setLoading(true);
-    setError("");
+    setError(null);
 
     const { data, error } = await supabase.auth.signInWithPassword({
       email,
@@ -89,34 +90,25 @@ export function AuthContextProvider({ children }) {
     } else {
       setSession(data.session);
       setJustLoggedIn(true);
-      console.log("Login successful");
-      navigate("/account"); // Redirect to account page after login
+      navigate("/account");
     }
     setLoading(false);
   };
 
-  // LOGOUT FUNCTION
   const handleLogout = async () => {
-    try {
-      setLoading(true);
-      setError("");
+    setLoading(true);
+    setError(null);
 
-      const { error } = await supabase.auth.signOut();
-      if (error) {
-        throw new Error(error.message);
-      }
-
-      setSession(null);
-      navigate("/login"); // Redirect to Login page after logout
-    } catch (error) {
+    const { error } = await supabase.auth.signOut();
+    if (error) {
       setError(error.message);
-      console.error("Error logging out:", error.message);
-    } finally {
-      setLoading(false);
+    } else {
+      setSession(null);
+      navigate("/login");
     }
+    setLoading(false);
   };
 
-  // CHECK IF USER IS LOGGED IN
   const isLoggedIn = Boolean(session);
 
   return (
