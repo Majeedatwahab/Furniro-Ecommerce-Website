@@ -106,7 +106,7 @@ function AllProducts() {
               <input
                 type="text"
                 name="results"
-                value="5"
+                value="8"
                 readOnly
                 className="border border-gray-300 p-1 w-14 h-14 text-center text-999999 text-xl"
               />
